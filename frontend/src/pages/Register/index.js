@@ -13,6 +13,7 @@ export default function Register() {
       <div className="content">
         <section>
           <img src={imgLogo} alt="Logo" />
+          <h1>Cadastro</h1>
           <p>
             Faça seu cadastro, entre na plataforma e ajude a pessoas a encontrar
             casos de sua ONG.
@@ -30,6 +31,7 @@ export default function Register() {
             <input type="text" placeholder="Cidade" />
             <input type="text" placeholder="UF" style={{ width: 80 }} />
           </div>
+          <button type="submit" className="button">Registrar</button>
         </form>
       </div>
     </div>
